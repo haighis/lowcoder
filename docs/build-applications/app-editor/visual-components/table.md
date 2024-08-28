@@ -4,40 +4,35 @@ The Standard Table is a highly functional and feature-rich component. It is reco
 
 The Lowcoder Table supports auto-size as a component as well as fixed size, where the Header and Toolbar can be fixed when the Table-Body is scrollable.
 
-{% embed url="https://app.supademo.com/demo/NEYc5eNZNchrXkpjo2GJs" %}
+TODO https://app.supademo.com/demo/NEYc5eNZNchrXkpjo2GJs
 Header & Toolbar can be fixed
-{% endembed %}
 
 The Borders of Tables can be set individually for the whole table till down to the individual cell.
 
-{% embed url="https://app.supademo.com/demo/9SG70olbmEvAIdCnYJxWm" %}
+TODO https://app.supademo.com/demo/9SG70olbmEvAIdCnYJxWm
 Individual Settings for Borders in Tables
-{% endembed %}
 
-{% embed url="https://app.supademo.com/demo/CJMoAPTKk3mZiSJeEYqDr" %}
+TODO https://app.supademo.com/demo/CJMoAPTKk3mZiSJeEYqDr
 Individual Grid Settings in the Table
-{% endembed %}
 
 Also, the Text Styles can be individualized for every column.
 
-{% embed url="https://app.supademo.com/demo/BQZNtDeTNXX9gVKD292sq" %}
+TODO https://app.supademo.com/demo/BQZNtDeTNXX9gVKD292sq
 
 ### Component Playground
 
-{% embed url="https://app.lowcoder.cloud/playground/table/1" %}
+TODO https://app.lowcoder.cloud/playground/table/1
 
 ### Component Auto-Docs
 
-{% embed url="https://app.lowcoder.cloud/components/table" %}
+TODO https://app.lowcoder.cloud/components/table
 
 ### Properties of the Table
 
-These properties are accessible in \{{ \}} notations, as well as in JavaScript Queries. \
+These properties are accessible in braces notations, as well as in JavaScript Queries. 
 
 
-{% hint style="warning" %}
 Properties are read-only
-{% endhint %}
 
 | Property Name   | Type    | Description                                                                                                                                        |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -51,7 +46,7 @@ Properties are read-only
 | pageSize        | Number  | How Many Rows per Page                                                                                                                             |
 | sortColumn      |         | The Name of the Currently Selected Sorted Column                                                                                                   |
 | sortDesc        | Boolean | Whether the Current Row Is in Descending Order                                                                                                     |
-| pageOffset      | Number  | The Current Start of Paging, Used for Paging to Get Data. Example: Select \* from Users Limit \{{table1.pageSize\}} Offset \{{table1.pageOffset\}} |
+| pageOffset      | Number  | The Current Start of Paging, Used for Paging to Get Data. Example: Select start from Users Limit table1.pageSize Offset table1.pageOffset |
 | displayData     | Array   | Data Displayed in the Current Table                                                                                                                |
 | filter          | Object  | Table Filtering Parameters                                                                                                                         |
 | data            | Array   | The JSON Data for the Table                                                                                                                        |
@@ -87,4 +82,3 @@ You have the capability to engage with components via their respective methods, 
 | setSort         | Set the Value of Property sort            |
 | resetSelections | Set the Value of Property resetselections |
 
-\

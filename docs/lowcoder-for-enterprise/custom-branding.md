@@ -2,9 +2,9 @@
 
 Lowcoder provides a white-labelling feature that allows you to customize your workspace's **branding**, including logo, favicon, brand name and color. You can easily configure branding to match your company's branding and benefit from consistent experiences with your company's existing internal tools.
 
-{% hint style="info" %}
+
 Custom branding is a **premium feature** of self-hosted Enterprise Edition of Lowcoder. Feel free to contact our team if needed.
-{% endhint %}
+
 
 ## Branding settings
 
@@ -17,9 +17,9 @@ The customizable branding settings are listed as follows:
 * Brand name: enter your **Brand Name** in the input box and it will show on the **login page** and as the browser tab title.
 * Favicon: click the **Favicon** box to upload your website icon, which is shown in the browser tab.
 
-{% hint style="success" %}
+
 Click the **Save** button and the settings will immediately take effect.
-{% endhint %}
+
 
 ### Example
 

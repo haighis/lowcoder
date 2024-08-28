@@ -1,0 +1,2469 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Native embed SDK · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 5.1.4">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="build-the-sdk-from-source.html" />
+    
+    
+    <link rel="prev" href="../embed-apps-in-react.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Lowcoder overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../../../lowcoder-overview/the-hello-world-walk.html">
+            
+                <a href="../../../lowcoder-overview/the-hello-world-walk.html">
+            
+                    
+                    The "Hello World" walk
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">🆕 Setup and run</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../../setup-and-run/cloud-and-private-cloud.html">
+            
+                <a href="../../../setup-and-run/cloud-and-private-cloud.html">
+            
+                    
+                    Cloud & Private Cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../../setup-and-run/self-hosting/">
+            
+                <a href="../../../setup-and-run/self-hosting/">
+            
+                    
+                    Self-hosting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../../setup-and-run/self-hosting/access-local-database-or-api.html">
+            
+                <a href="../../../setup-and-run/self-hosting/access-local-database-or-api.html">
+            
+                    
+                    Access local database or API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../../setup-and-run/self-hosting/google-cloud-platform.html">
+            
+                <a href="../../../setup-and-run/self-hosting/google-cloud-platform.html">
+            
+                    
+                    Google Cloud Platform
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../../setup-and-run/self-hosting/heroku.html">
+            
+                <a href="../../../setup-and-run/self-hosting/heroku.html">
+            
+                    
+                    Heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../../../setup-and-run/self-hosting/raspberry-pi.html">
+            
+                <a href="../../../setup-and-run/self-hosting/raspberry-pi.html">
+            
+                    
+                    Raspberry Pi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../../../setup-and-run/self-hosting/migration-from-openblocks.html">
+            
+                <a href="../../../setup-and-run/self-hosting/migration-from-openblocks.html">
+            
+                    
+                    Migration from Openblocks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../../../setup-and-run/self-hosting/update-mongodb-versions.html">
+            
+                <a href="../../../setup-and-run/self-hosting/update-mongodb-versions.html">
+            
+                    
+                    Update MongoDB Versions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../../../setup-and-run/self-hosting/lowcoder-version-update.html">
+            
+                <a href="../../../setup-and-run/self-hosting/lowcoder-version-update.html">
+            
+                    
+                    Lowcoder Version Update
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../../../setup-and-run/self-hosting/traefik-loadbalancer.html">
+            
+                <a href="../../../setup-and-run/self-hosting/traefik-loadbalancer.html">
+            
+                    
+                    Traefik loadbalancer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../../../setup-and-run/self-hosting/smtp-server.html">
+            
+                <a href="../../../setup-and-run/self-hosting/smtp-server.html">
+            
+                    
+                    SMTP Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../../setup-and-run/security.html">
+            
+                <a href="../../../setup-and-run/security.html">
+            
+                    
+                    Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">🏨 Workspaces & Teamwork</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../../workspaces-and-teamwork/workspaces.html">
+            
+                <a href="../../../workspaces-and-teamwork/workspaces.html">
+            
+                    
+                    Workspaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../../workspaces-and-teamwork/members-and-groups.html">
+            
+                <a href="../../../workspaces-and-teamwork/members-and-groups.html">
+            
+                    
+                    Members and Groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../../workspaces-and-teamwork/permissions-for-resources.html">
+            
+                <a href="../../../workspaces-and-teamwork/permissions-for-resources.html">
+            
+                    
+                    Permissions for Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../../../workspaces-and-teamwork/oauth/">
+            
+                <a href="../../../workspaces-and-teamwork/oauth/">
+            
+                    
+                    OAuth
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" data-path="../../../workspaces-and-teamwork/oauth/keycloak.html">
+            
+                <a href="../../../workspaces-and-teamwork/oauth/keycloak.html">
+            
+                    
+                    KeyCloak
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.2" data-path="../../../workspaces-and-teamwork/oauth/google.html">
+            
+                <a href="../../../workspaces-and-teamwork/oauth/google.html">
+            
+                    
+                    Google
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.3" data-path="../../../workspaces-and-teamwork/oauth/github.html">
+            
+                <a href="../../../workspaces-and-teamwork/oauth/github.html">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.4" data-path="../../../workspaces-and-teamwork/oauth/generic-oauth-provider.html">
+            
+                <a href="../../../workspaces-and-teamwork/oauth/generic-oauth-provider.html">
+            
+                    
+                    Generic OAuth Provider
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../../../workspaces-and-teamwork/query-library.html">
+            
+                <a href="../../../workspaces-and-teamwork/query-library.html">
+            
+                    
+                    Query library
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../../../workspaces-and-teamwork/lowcoder-marketplace.html">
+            
+                <a href="../../../workspaces-and-teamwork/lowcoder-marketplace.html">
+            
+                    
+                    Lowcoder Marketplace
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">✨ Build Applications</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../../build-applications/create-a-new-app/">
+            
+                <a href="../../../build-applications/create-a-new-app/">
+            
+                    
+                    Create a new App
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../../../build-applications/create-a-new-app/modules.html">
+            
+                <a href="../../../build-applications/create-a-new-app/modules.html">
+            
+                    
+                    Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../../../build-applications/create-a-new-app/version-and-release-management.html">
+            
+                <a href="../../../build-applications/create-a-new-app/version-and-release-management.html">
+            
+                    
+                    Version and Release Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../../build-applications/app-editor/">
+            
+                <a href="../../../build-applications/app-editor/">
+            
+                    
+                    App Editor
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../../../build-applications/app-editor/visual-components/">
+            
+                <a href="../../../build-applications/app-editor/visual-components/">
+            
+                    
+                    Visual Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1.1" data-path="../../../build-applications/app-editor/visual-components/common-component-settings.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/common-component-settings.html">
+            
+                    
+                    Common Component Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.2" data-path="../../../build-applications/app-editor/visual-components/file-upload.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/file-upload.html">
+            
+                    
+                    File upload
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.3" data-path="../../../build-applications/app-editor/visual-components/charts-and-graphs.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/charts-and-graphs.html">
+            
+                    
+                    Charts and graphs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.4" data-path="../../../build-applications/app-editor/visual-components/image.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/image.html">
+            
+                    
+                    Image
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.5" data-path="../../../build-applications/app-editor/visual-components/option-lists.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/option-lists.html">
+            
+                    
+                    Option lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.6" data-path="../../../build-applications/app-editor/visual-components/list-view.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/list-view.html">
+            
+                    
+                    List View
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.7" data-path="../../../build-applications/app-editor/visual-components/drawer.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/drawer.html">
+            
+                    
+                    Drawer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.8" data-path="../../../build-applications/app-editor/visual-components/google-maps.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/google-maps.html">
+            
+                    
+                    Google Maps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.9" data-path="../../../build-applications/app-editor/visual-components/table.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/table.html">
+            
+                    
+                    Table
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.10" data-path="../../../build-applications/app-editor/visual-components/messages-toast.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/messages-toast.html">
+            
+                    
+                    Messages / Toast
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.1.11" data-path="../../../build-applications/app-editor/visual-components/calendar.html">
+            
+                <a href="../../../build-applications/app-editor/visual-components/calendar.html">
+            
+                    
+                    Calendar
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../../../build-applications/app-editor/date-handling.html">
+            
+                <a href="../../../build-applications/app-editor/date-handling.html">
+            
+                    
+                    Date handling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../../../build-applications/app-editor/bulk-editing.html">
+            
+                <a href="../../../build-applications/app-editor/bulk-editing.html">
+            
+                    
+                    Bulk Editing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="../../../build-applications/app-editor/layers.html">
+            
+                <a href="../../../build-applications/app-editor/layers.html">
+            
+                    
+                    Layers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.5" data-path="../../../build-applications/app-editor/data-selection-and-javascript.html">
+            
+                <a href="../../../build-applications/app-editor/data-selection-and-javascript.html">
+            
+                    
+                    Data selection & Javascript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.6" data-path="../../../build-applications/app-editor/use-markdown.html">
+            
+                <a href="../../../build-applications/app-editor/use-markdown.html">
+            
+                    
+                    Use Markdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.7" data-path="../../../build-applications/app-editor/keyboard-shortcuts.html">
+            
+                <a href="../../../build-applications/app-editor/keyboard-shortcuts.html">
+            
+                    
+                    Keyboard shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../../build-applications/app-navigation.html">
+            
+                <a href="../../../build-applications/app-navigation.html">
+            
+                    
+                    App Navigation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../../../build-applications/app-interaction/">
+            
+                <a href="../../../build-applications/app-interaction/">
+            
+                    
+                    App Interaction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.4.1" data-path="../../../build-applications/app-interaction/event-handlers.html">
+            
+                <a href="../../../build-applications/app-interaction/event-handlers.html">
+            
+                    
+                    Event handlers
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../../../build-applications/themes-and-styling/">
+            
+                <a href="../../../build-applications/themes-and-styling/">
+            
+                    
+                    Themes & Styling
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.5.1" data-path="../../../build-applications/themes-and-styling/design-an-efficient-and-user-friendly-form.html">
+            
+                <a href="../../../build-applications/themes-and-styling/design-an-efficient-and-user-friendly-form.html">
+            
+                    
+                    Design an efficient and user-friendly form
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5.2" data-path="../../../build-applications/themes-and-styling/customize-styles.html">
+            
+                <a href="../../../build-applications/themes-and-styling/customize-styles.html">
+            
+                    
+                    Customize Styles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5.3" data-path="../../../build-applications/themes-and-styling/component-styling-possibilities.html">
+            
+                <a href="../../../build-applications/themes-and-styling/component-styling-possibilities.html">
+            
+                    
+                    Component Styling Possibilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../../../build-applications/video-calls-in-lowcoder.html">
+            
+                <a href="../../../build-applications/video-calls-in-lowcoder.html">
+            
+                    
+                    Video Calls in Lowcoder
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">🚀 Connect your Data</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../../connect-your-data/data-source-basics/">
+            
+                <a href="../../../connect-your-data/data-source-basics/">
+            
+                    
+                    Data source basics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../../../connect-your-data/data-source-basics/configure-ip-allowlists.html">
+            
+                <a href="../../../connect-your-data/data-source-basics/configure-ip-allowlists.html">
+            
+                    
+                    Configure IP allowlists
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../../connect-your-data/data-sources-in-lowcoder/">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/">
+            
+                    
+                    Data sources in Lowcoder
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/">
+            
+                    
+                    APIs as Datasource
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1.1" data-path="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/rest-api.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/rest-api.html">
+            
+                    
+                    REST API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.1.2" data-path="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/graphql.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/graphql.html">
+            
+                    
+                    GraphQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.1.3" data-path="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/google-sheets.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/apis-as-datasource/google-sheets.html">
+            
+                    
+                    Google Sheets
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/">
+            
+                    
+                    SQL Databases
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.2.1" data-path="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/mysql.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/mysql.html">
+            
+                    
+                    MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2.2" data-path="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/mariadb.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/mariadb.html">
+            
+                    
+                    MariaDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2.3" data-path="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/postgresql.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/postgresql.html">
+            
+                    
+                    PostgreSQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2.4" data-path="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/microsoft-sql-server.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/microsoft-sql-server.html">
+            
+                    
+                    Microsoft SQL Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2.5" data-path="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/oracle.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/sql-databases/oracle.html">
+            
+                    
+                    Oracle
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/">
+            
+                    
+                    NoSQL Databases
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.3.1" data-path="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/mongodb.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/mongodb.html">
+            
+                    
+                    MongoDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3.2" data-path="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/couchdb.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/couchdb.html">
+            
+                    
+                    CouchDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3.3" data-path="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/dynamodb.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/nosql-databases/dynamodb.html">
+            
+                    
+                    DynamoDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.4" data-path="../../../connect-your-data/data-sources-in-lowcoder/inmemory-databases/">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/inmemory-databases/">
+            
+                    
+                    InMemory Databases
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.4.1" data-path="../../../connect-your-data/data-sources-in-lowcoder/inmemory-databases/redis.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/inmemory-databases/redis.html">
+            
+                    
+                    Redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.5" data-path="../../../connect-your-data/data-sources-in-lowcoder/file-storages/">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/file-storages/">
+            
+                    
+                    File Storages
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.5.1" data-path="../../../connect-your-data/data-sources-in-lowcoder/file-storages/s3-file-storage.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/file-storages/s3-file-storage.html">
+            
+                    
+                    S3 File Storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.6" data-path="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/">
+            
+                    
+                    BigData & OLAP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.6.1" data-path="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/big-query.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/big-query.html">
+            
+                    
+                    Big Query
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.6.2" data-path="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/snowflake.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/snowflake.html">
+            
+                    
+                    Snowflake
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.6.3" data-path="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/clickhouse.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/clickhouse.html">
+            
+                    
+                    ClickHouse
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.6.4" data-path="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/elasticsearch.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/bigdata-and-olap/elasticsearch.html">
+            
+                    
+                    Elasticsearch
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.7" data-path="../../../connect-your-data/data-sources-in-lowcoder/websocket-datasource.html">
+            
+                <a href="../../../connect-your-data/data-sources-in-lowcoder/websocket-datasource.html">
+            
+                    
+                    Websocket Datasource
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../../../connect-your-data/query-basics/">
+            
+                <a href="../../../connect-your-data/query-basics/">
+            
+                    
+                    Query basics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1" data-path="../../../connect-your-data/query-basics/bind-query-data-to-components.html">
+            
+                <a href="../../../connect-your-data/query-basics/bind-query-data-to-components.html">
+            
+                    
+                    Bind Query Data to Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2" data-path="../../../connect-your-data/query-basics/query-library.html">
+            
+                <a href="../../../connect-your-data/query-basics/query-library.html">
+            
+                    
+                    Query library
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../../workflows/">
+            
+                <a href="../../../workflows/">
+            
+                    
+                    🪄 Workflows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../../../workflows/n8n-integration.html">
+            
+                <a href="../../../workflows/n8n-integration.html">
+            
+                    
+                    n8n Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">💫 Business Logic in Apps</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../../business-logic-in-apps/write-javascript/">
+            
+                <a href="../../../business-logic-in-apps/write-javascript/">
+            
+                    
+                    Write JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="../../../business-logic-in-apps/write-javascript/javascript-query.html">
+            
+                <a href="../../../business-logic-in-apps/write-javascript/javascript-query.html">
+            
+                    
+                    JavaScript query
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="../../../business-logic-in-apps/write-javascript/temporary-state.html">
+            
+                <a href="../../../business-logic-in-apps/write-javascript/temporary-state.html">
+            
+                    
+                    Temporary state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" data-path="../../../business-logic-in-apps/write-javascript/transformers.html">
+            
+                <a href="../../../business-logic-in-apps/write-javascript/transformers.html">
+            
+                    
+                    Transformers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4" data-path="../../../business-logic-in-apps/write-javascript/data-responder.html">
+            
+                <a href="../../../business-logic-in-apps/write-javascript/data-responder.html">
+            
+                    
+                    Data responder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.5" data-path="../../../business-logic-in-apps/write-javascript/built-in-js-functions.html">
+            
+                <a href="../../../business-logic-in-apps/write-javascript/built-in-js-functions.html">
+            
+                    
+                    Built-in JS functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">🙌 Publish Apps</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../../share-an-app.html">
+            
+                <a href="../../share-an-app.html">
+            
+                    
+                    Share an App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../../publish-an-app.html">
+            
+                <a href="../../publish-an-app.html">
+            
+                    
+                    Publish an App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Embedd an App
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.3.1" data-path="../embed-app-in-html-pages.html">
+            
+                <a href="../embed-app-in-html-pages.html">
+            
+                    
+                    Embed App in HTML Pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.2" data-path="../embed-apps-in-react.html">
+            
+                <a href="../embed-apps-in-react.html">
+            
+                    
+                    Embed Apps in React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="8.3.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Native embed SDK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.3.3.1" data-path="build-the-sdk-from-source.html">
+            
+                <a href="build-the-sdk-from-source.html">
+            
+                    
+                    Build the SDK from Source
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">🔥 Lowcoder Extension</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../../../lowcoder-extension/opensource-contribution/">
+            
+                <a href="../../../lowcoder-extension/opensource-contribution/">
+            
+                    
+                    Opensource Contribution
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1.1" data-path="../../../lowcoder-extension/opensource-contribution/develop-ui-components-for-apps.html">
+            
+                <a href="../../../lowcoder-extension/opensource-contribution/develop-ui-components-for-apps.html">
+            
+                    
+                    Develop UI components for Apps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.2" data-path="../../../lowcoder-extension/opensource-contribution/develop-data-source-plugins.html">
+            
+                <a href="../../../lowcoder-extension/opensource-contribution/develop-data-source-plugins.html">
+            
+                    
+                    Develop Data Source Plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="../../../lowcoder-extension/use-third-party-libraries-in-apps/">
+            
+                <a href="../../../lowcoder-extension/use-third-party-libraries-in-apps/">
+            
+                    
+                    Use third-party libraries in Apps
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.2.1" data-path="../../../lowcoder-extension/use-third-party-libraries-in-apps/day.js-date-handling.html">
+            
+                <a href="../../../lowcoder-extension/use-third-party-libraries-in-apps/day.js-date-handling.html">
+            
+                    
+                    Day.js Date handling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.2" data-path="../../../lowcoder-extension/use-third-party-libraries-in-apps/import-your-own-javascript-library.html">
+            
+                <a href="../../../lowcoder-extension/use-third-party-libraries-in-apps/import-your-own-javascript-library.html">
+            
+                    
+                    Import your own JavaScript Library
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="../../../lowcoder-extension/custom-component.html">
+            
+                <a href="../../../lowcoder-extension/custom-component.html">
+            
+                    
+                    Custom component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="../../../lowcoder-extension/lowcoder-open-rest-api.html">
+            
+                <a href="../../../lowcoder-extension/lowcoder-open-rest-api.html">
+            
+                    
+                    Lowcoder Open REST API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Lowcoder for Enterprise</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../../../lowcoder-for-enterprise/custom-branding.html">
+            
+                <a href="../../../lowcoder-for-enterprise/custom-branding.html">
+            
+                    
+                    Custom branding
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Native embed SDK</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="native-embed-sdk">Native embed SDK</h1>
+<p>The key advantage for React developers using Lowcoder is the ease of embedding Lowcoder apps directly into the React component hierarchy. This native integration means that Lowcoder apps can be treated as part of the React tree, ensuring a smooth and cohesive user experience. Developers can place Lowcoder apps within their existing React components, maintaining the structural and stylistic consistency of their applications.</p>
+<p>Moreover, the interaction between React components and Lowcoder apps is exceptionally fluid. React developers can directly manipulate the state of Lowcoder apps, invoke methods, and handle events, creating a highly interactive and responsive environment. This direct interaction is a game-changer, as it allows for real-time data exchange and dynamic behavior within the application.</p>
+<p>For instance, a React developer can easily update the state of a Lowcoder app based on user interactions or external data changes in their React components. This two-way communication ensures that the embedded Lowcoder apps are not just static elements but integral, interactive parts of the overall application.</p>
+<p>The ability to interact with Lowcoder apps through state management, method calls, and event handling in React also simplifies the development process. Developers can leverage their existing knowledge of React's ecosystem to control and customize Lowcoder apps, reducing the learning curve and accelerating development timelines.</p>
+<h2 id="lowcoder-sdk-usable-imports-">Lowcoder SDK usable imports </h2>
+<p>This is an overview list of exports available for developers using the Lowcoder SDK. </p>
+<p>It is important to keep in mind, that this List was build during a reverse engineering attempt. We cannot guarantee the completeness. Also you will find at many Items that the description was guessed (by ChatGPT). \
+\
+We try step by step to add missing Items and optimize the documentation.</p>
+<h3 id="external-libraries">External Libraries</h3>
+<pre><code class="lang-plaintext">numbro - A library for formatting and manipulating numbers.
+Papa - A robust CSV parsing library for in-browser use.
+uuid - A library for generating unique identifiers.
+</code></pre>
+<h3 id="redux-store">Redux Store</h3>
+<pre><code class="lang-plaintext">redux/store/store - Exports from Redux store for state management.
+</code></pre>
+<h3 id="utilities">Utilities</h3>
+<p>Utilities provide a wide range of functionality, from application utilities to hooks and performance utilities.</p>
+<ul>
+<li><strong>util/appUtils</strong> - General application utilities.</li>
+<li><strong>util/bottomResUtils</strong> - Utilities for bottom resolution management.</li>
+<li><strong>util/cacheUtils</strong> - Caching mechanisms for performance optimization.</li>
+<li><strong>util/commonUtils</strong> - Commonly used utilities across applications.</li>
+<li><strong>util/convertUtils</strong> - Data type conversion utilities.</li>
+<li><strong>util/dateTimeUtils</strong> - Utilities for handling dates and times.</li>
+<li><strong>util/editoryHistory</strong> - Utilities for managing editor history.</li>
+<li><strong>util/envUtils</strong> - Environment interaction utilities.</li>
+<li><strong>util/fileUtils</strong> - File operation utilities.</li>
+<li><strong>util/history</strong> - Navigation history management utilities.</li>
+<li><strong>util/historyManager</strong> - Utilities for managing history instances.</li>
+<li><strong>util/hooks</strong> - Custom React hooks.</li>
+<li><strong>util/hotkeys</strong> - Keyboard shortcut utilities.</li>
+<li><strong>util/jsonTypes</strong> - JSON data type handling utilities.</li>
+<li><strong>util/keyUtils</strong> - Key management and operation utilities.</li>
+<li><strong>util/localStorageUtil</strong> - Local storage interaction utilities.</li>
+<li><strong>util/memoize</strong> - Memoization utilities for performance optimization.</li>
+<li><strong>util/objectUtils</strong> - Object manipulation and operation utilities.</li>
+<li><strong>util/perfUtils</strong> - Performance monitoring and optimization utilities.</li>
+<li><strong>util/permissionUtils</strong> - User permission management utilities.</li>
+<li><strong>util/reducerUtils</strong> - Redux reducer utilities.</li>
+<li><strong>util/scheduleUtils</strong> - Scheduled task management utilities.</li>
+<li><strong>util/stringUtils</strong> - String manipulation and operation utilities.</li>
+<li><strong>util/tutorialUtils</strong> - Tutorial creation and management utilities.</li>
+<li><strong>util/uaUtils</strong> - User agent detection utilities.</li>
+<li><strong>util/urlUtils</strong> - URL manipulation and parsing utilities.</li>
+<li><strong>util/context/ExternalEditorContext</strong> - Context for external editor integration. With the help of the EditorContext Object you can access also EditorState and understand the current usage of the Editor / Canvas.</li>
+</ul>
+<h3 id="constants">Constants</h3>
+<pre><code class="lang-plaintext">constants/domLocators/CanvasContainerID - Identifier for the canvas container element.
+</code></pre>
+<h3 id="components-and-component-utilities">Components and Component Utilities</h3>
+<p>Components and utilities for building and managing UI components.</p>
+<pre><code class="lang-plaintext">
+comps/comps/rootComp - Root component structure.
+comps/utils/useCompInstance - Utilities for component instance management.
+comps/utils/idGenerator - Unique identifier generator for components.
+comps/utils/propertyUtils - Component property management utilities.
+comps/utils/globalSettings - Global settings management utilities.
+comps/utils/themeContext - Theme management context.
+</code></pre>
+<h3 id="design-and-core">Design and Core</h3>
+<pre><code class="lang-plaintext">lowcoder-design - Core design elements for building applications.
+lowcoder-core - Core functionalities for application development.
+</code></pre>
+<h3 id="wrappers">Wrappers</h3>
+<p>Wrappers play crucial roles in structuring the UI and UX of the SDK's components, ensuring that complex functionalities are manageable and that the interface remains user-friendly.</p>
+<ul>
+<li><strong>ControlPropertyViewWrapper</strong> - A wrapper for property views within control components, likely enhancing layout or providing additional UI context for control settings.</li>
+<li><strong>ModalFooterWrapper</strong> - A wrapper specifically for the footer section of modal dialogs, potentially standardizing layout or spacing for action buttons.</li>
+<li><strong>SecondStepPropertyViewWrapper</strong> - A wrapper used for the second step in a multi-step property configuration process, possibly organizing or grouping properties for clarity.</li>
+<li><strong>GlobalShortcutsWrapper</strong> - A wrapper for global shortcut configurations, ensuring shortcut keys are managed or displayed in a consistent format across the application.</li>
+<li><strong>QueryConfigItemWrapper</strong> - A wrapper for individual items within query configuration settings, providing a consistent UI structure for each query parameter or option.</li>
+<li><strong>QueryConfigWrapper</strong> - A more general wrapper for the entire set of query configuration settings, encapsulating all query config items for cohesive presentation.</li>
+<li><strong>QueryPropertyViewWrapper</strong> - A wrapper for property views related to queries, likely organizing and displaying query-related settings in a user-friendly manner.</li>
+<li><strong>QuerySectionWrapper</strong> - A wrapper for sections within a query configuration or editor, segmenting the query UI into logical parts for better user navigation.</li>
+<li><strong>ShortcutsWrapper</strong> - A wrapper for shortcut configurations, similar to GlobalShortcutsWrapper, but potentially for a more specific context or component.</li>
+<li><strong>SuspensionBoxWrapper</strong> - A wrapper that might be used to suspend or temporarily hold components, possibly for lazy loading or conditional rendering scenarios.</li>
+<li><strong>SwitchWrapper</strong> - A wrapper for switch components, providing additional styling or context for toggle switches within the UI.</li>
+<li><strong>ValueAndMsgWrapper</strong> - A wrapper for components or UI elements that display both a value and a message, ensuring consistent formatting and presentation.</li>
+<li><strong>WrapContextNodeV2Wrapper</strong> - A wrapper for context nodes in a version 2 format, possibly providing a new or enhanced way to manage context in component trees.</li>
+<li><strong>WrapNodeWrapper</strong> - A general wrapper for nodes, likely used to encapsulate components or elements within additional logic or styling context.</li>
+<li><strong>WrapperToControlItem</strong> - A wrapper that converts generic components or elements into control items, likely for use in a control panel or settings menu.</li>
+</ul>
+<h3 id="controls">Controls</h3>
+<p>Controls for managing Properties for UI elements and interactions.</p>
+<ul>
+<li><strong>ActionSelectorControl</strong> - Enables selection from a list of predefined actions.</li>
+<li><strong>ArrayControl</strong> - Manages arrays, allowing users to add, remove, and edit array items.</li>
+<li><strong>ArrayNumberControl</strong> - Specifically for arrays of numbers, facilitating their management.</li>
+<li><strong>ArrayOrJSONObjectControl</strong> - Allows input to be either an array or a JSON object, supporting flexible data structures.</li>
+<li><strong>ArrayStringControl</strong> - Designed for arrays of strings, enabling easy manipulation of string lists.</li>
+<li><strong>ArrayStringOrNumberControl</strong> - Accepts arrays composed of either strings or numbers, offering versatility in data handling.</li>
+<li><strong>BooleanStateControl</strong> - Toggles a boolean state, useful for settings that can be switched on or off.</li>
+<li><strong>ButtonEventHandlerControl</strong> - Configures event handlers for button components, customizing their behavior.</li>
+<li><strong>ColorCodeControl</strong> - Inputs color codes (e.g., HEX, RGB), providing a precise method for color selection.</li>
+<li><strong>ColorControl</strong> - Offers a color picker for intuitive color selection.</li>
+<li><strong>ColumnOptionControl</strong> - Selects options for table columns, such as visibility and sorting.</li>
+<li><strong>DropdownOptionControl</strong> - Manages options within a dropdown, allowing for the organization of selectable items.</li>
+<li><strong>FunctionControl</strong> - Defines functions, enabling custom logic or calculations.</li>
+<li><strong>JSONObjectArrayControl</strong> - Manages arrays of JSON objects, facilitating complex data structures.</li>
+<li><strong>JSONObjectControl</strong> - Inputs JSON objects, allowing users to define key-value pairs.</li>
+<li><strong>JSONValueControl</strong> - Inputs values in JSON format, supporting various data types.</li>
+<li><strong>NumberControl</strong> - Inputs numeric values, often with validation for specific ranges.</li>
+<li><strong>NumberOrJSONObjectArrayControl</strong> - Allows either a single number or an array of JSON objects as input.</li>
+<li><strong>NumberStateControl</strong> - Manages numeric state properties, useful for numeric configurations.</li>
+<li><strong>ObjectControl</strong> - Inputs generic objects, providing a flexible interface for defining properties.</li>
+<li><strong>ParamsArrayStringControl</strong> - Manages string arrays as parameters, useful for multiple text inputs.</li>
+<li><strong>ParamsBooleanCodeControl</strong> - Inputs boolean parameters with code support, allowing dynamic logic.</li>
+<li><strong>ParamsBooleanControl</strong> - Inputs boolean parameters, typically for toggling settings.</li>
+<li><strong>ParamsJsonControl</strong> - Inputs parameters in JSON format, supporting complex configurations.</li>
+<li><strong>ParamsNumberControl</strong> - Inputs numeric parameters, with support for range constraints.</li>
+<li><strong>ParamsPositiveNumberControl</strong> - Specifically for positive numeric parameters, ensuring positive inputs.</li>
+<li><strong>ParamsStringControl</strong> - Inputs string parameters, allowing text input for configurations.</li>
+<li><strong>ParamsStringJsonControl</strong> - Inputs string parameters with JSON support, offering flexible text inputs.</li>
+<li><strong>SelectEventHandlerControl</strong> - Selects event handlers, customizing interactive component responses.</li>
+<li><strong>SelectInputOptionControl</strong> - Configures options within select components, enhancing dropdown functionality.</li>
+<li><strong>SelectOptionControl</strong> - Manages options in select components, facilitating choice organization.</li>
+<li><strong>TransformerCodeControl</strong> - Inputs transformation code, used for data modification.</li>
+<li><strong>IconControl</strong> - Enables the selection of icons from a predefined set, useful for visually representing actions or statuses.</li>
+<li><strong>InputEventHandlerControl</strong> - Configures event handlers for input fields, enabling custom reactions to user inputs.</li>
+<li><strong>KeyValueControl</strong> - Allows users to input key-value pairs, facilitating the management of object properties or configurations.</li>
+<li><strong>LabelControl</strong> - A control for inputting and editing text labels, often used for form fields, buttons, or other interactive elements.</li>
+<li><strong>OptionsControl</strong> - Manages selectable options across various components, enhancing configurability.</li>
+<li><strong>PositionControl</strong> - Allows users to specify the position of elements, useful for layout and design settings.</li>
+<li><strong>QuerySelectControl</strong> - Enables the selection of queries from a list, often used in data-binding or API-related configurations.</li>
+<li><strong>RadiusControl</strong> - Inputs radius values, controlling the curvature of borders or other circular elements.</li>
+<li><strong>RangeControl</strong> - Provides a UI for selecting a range of values, typically represented by a slider with two handles.</li>
+<li><strong>RefControl</strong> - Manages references to other components or data sources, facilitating complex data interactions.</li>
+<li><strong>RegexControl</strong> - Inputs regular expressions, allowing for pattern matching and validation settings.</li>
+</ul>
+<h3 id="generators">Generators</h3>
+<p>Generators for creating components and enhancing them with additional functionalities.</p>
+<ul>
+<li><strong>changeDataType</strong> - Generator for changing data types.</li>
+<li><strong>hookToComp</strong> - Generator for converting hooks to components.</li>
+<li><strong>index</strong> - Base generator exports.</li>
+<li><strong>list</strong> - Generator for list components.</li>
+<li><strong>multi</strong> - Generator for multi-component structures.</li>
+<li><strong>sameTypeMap</strong> - Generator for mapping same type components.</li>
+<li><strong>simpleGenerators</strong> - Simple component generators.</li>
+<li><strong>uiCompBuilder</strong> - UI component builder generator.</li>
+<li><strong>withContext</strong> - Generator for adding context to components.</li>
+<li><strong>withDispatchHook</strong> - Generator for adding dispatch hooks.</li>
+<li><strong>withErrorBoundary</strong> - Generator for adding error boundaries.</li>
+<li><strong>withExposing</strong> - Generator for exposing component functionalities.</li>
+<li><strong>withIsLoading</strong> - Generator for loading state management.</li>
+<li><strong>withMethodExposing</strong> - Generator to expose methods on a component.</li>
+<li><strong>withType</strong> - Generator for type management.</li>
+</ul>
+<h3 id="components">Components</h3>
+<p>Components cover a wide range of functionalities, from input and selection to display and multimedia, facilitating the development of interactive and dynamic web applications.</p>
+<ul>
+<li><strong>AbstractComp</strong> - Represents an abstract component, likely serving as a base or common interface for other components.</li>
+<li><strong>AudioComp</strong> - Component for audio playback functionality.</li>
+<li><strong>AutoCompleteComp</strong> - Component for autocomplete functionality, allowing users to quickly find and select from a list of values as they type.</li>
+<li><strong>CalendarComp</strong> - Component for displaying and interacting with a calendar, typically used for date selection.</li>
+<li><strong>CascaderComp</strong> - Component that provides a cascading select interface, where the selection in one level determines the options available in the next.</li>
+<li><strong>CheckboxComp</strong> - Component for checkbox functionality, allowing users to select one or more options from a set.</li>
+<li><strong>CollapsibleContainerComp</strong> - Component that can expand and collapse to show or hide its content.</li>
+<li><strong>ContainerComp</strong> - Generic container component, used to group other components together.</li>
+<li><strong>DateComp</strong> - Component for date input, allowing users to select a date.</li>
+<li><strong>DateRangeComp</strong> - Component for selecting a range of dates, from a start date to an end date.</li>
+<li><strong>DropdownComp</strong> - Component for dropdown selection functionality, allowing users to select an option from a dropdown menu.</li>
+<li><strong>FileViewerComp</strong> - Component for viewing files, potentially supporting various file types.</li>
+<li><strong>FormComp</strong> - Component for form functionality, allowing users to input and submit data.</li>
+<li><strong>HookComp</strong> - Likely a component designed to utilize React hooks for state management or side effects.</li>
+<li><strong>IFrameComp</strong> - Component for embedding an IFrame, allowing for the inclusion of another HTML page within the current page.</li>
+<li><strong>InputComp</strong> - Component for text input, allowing users to enter and edit text.</li>
+<li><strong>JsonEditorComp</strong> - Component for editing JSON data, providing a user-friendly interface for modifying JSON structures.</li>
+<li><strong>JsonFormComp</strong> - Component for generating forms based on JSON data, allowing dynamic form creation and manipulation.</li>
+<li><strong>ListViewComp</strong> - Component for displaying a list of items, potentially supporting scrolling, selection, and other list interactions.</li>
+<li><strong>ModalComp</strong> - Component for modal dialog functionality, allowing for pop-up dialogs that overlay the main content.</li>
+<li><strong>NumberInputComp</strong> - Component for number input, allowing users to enter numeric values.</li>
+<li><strong>PasswordComp</strong> - Component for password input, typically hiding the entered characters for security.</li>
+<li><strong>ProcessCircleComp</strong> - Component likely representing a process or progress indicator in the form of a circle.</li>
+<li><strong>ProgressComp</strong> - Component for displaying progress, such as a progress bar.</li>
+<li><strong>QRCodeComp</strong> - Component for displaying QR codes.</li>
+<li><strong>RadioComp</strong> - Component for radio button functionality, allowing users to select a single option from a set.</li>
+<li><strong>RatingComp</strong> - Component for rating functionality, allowing users to provide a rating, typically represented by stars or similar indicators.</li>
+<li><strong>RichTextEditorComp</strong> - Component for rich text editing, providing a user interface for formatting text with options like bold, italic, lists, etc.</li>
+<li><strong>SliderComp</strong> - Component for slider functionality, allowing users to select a value from a range by sliding a handle.</li>
+<li><strong>SwitchComp</strong> - Component for switch functionality, allowing users to toggle between two states, such as on/off.</li>
+<li><strong>TableComp</strong> - Component for table functionality, displaying data in rows and columns.</li>
+<li><strong>TextAreaComp</strong> - Component for multi-line text input, allowing users to enter text over multiple lines.</li>
+<li><strong>TextComp</strong> - Component for displaying text.</li>
+<li><strong>ToggleButtonComp</strong> - Component for a toggle button that can switch between two states.</li>
+<li><strong>VideoComp</strong> - Component for video playback functionality.</li>
+</ul>
+<h3 id="styles">Styles</h3>
+<pre><code>styled - An object combining default and named Styles 
+so you can use it like "const YourDiv = styled.div`... {your CSS}`;
+</code></pre><ul>
+<li><strong>BigButtonStyle</strong> - Style definition for large buttons, likely specifying size, padding, and possibly color.</li>
+<li><strong>BlockGrayLabelStyle</strong> - Style for a label component with a block display and gray background, typically used for categorization or emphasis.</li>
+<li><strong>BlockLabelStyle</strong> - General style for label components that are displayed as blocks, focusing on background color, margin, and padding.</li>
+<li><strong>BlueButtonStyle</strong> - Style specifically for blue buttons, defining the color scheme and possibly hover states for buttons.</li>
+<li><strong>ButtonStyle</strong> - General style for button components, including padding, font size, and color.</li>
+<li><strong>CalendarStyle</strong> - Style for calendar components, affecting the layout, colors, and typography of the calendar UI.</li>
+<li><strong>CarouselStyle</strong> - Style for carousel components, which may include settings for transitions, navigation buttons, and pagination indicators.</li>
+<li><strong>CascaderStyle</strong> - Style for cascader components, affecting how nested options are displayed and interacted with.</li>
+<li><strong>CheckboxStyle</strong> - Style for checkbox components, including the box size, checkmark appearance, and spacing.</li>
+<li><strong>CommentStyle</strong> - Style for comment sections or components, focusing on typography, spacing, and background color.</li>
+<li><strong>ContainerBodyStyle</strong> - Style specifically for the body of container components, affecting padding, margin, and background color.</li>
+<li><strong>ContainerFooterStyle</strong> - Style for the footer area of container components, which may include padding, border, and background color settings.</li>
+<li><strong>ContainerHeaderStyle</strong> - Style for the header part of container components, typically defining background color, typography, and padding.</li>
+<li><strong>ContainerStyle</strong> - General style for container components, affecting overall layout, padding, and border properties.</li>
+<li><strong>DividerStyle</strong> - Style for divider components, focusing on line color, thickness, and margin.</li>
+<li><strong>DropdownContainerStyle</strong> - Style for the container part of dropdown components, affecting the dropdown list's appearance and positioning.</li>
+<li><strong>DropdownMenuStyle</strong> - Style for dropdown menu components, including item spacing, background color, and typography.</li>
+<li><strong>FormCheckboxItemStyle</strong> - Style for checkbox items within forms, specifying the layout and appearance of checkboxes in form contexts.</li>
+<li><strong>FormInputItemStyle</strong> - Style for input items within forms, focusing on border, padding, and typography for form inputs.</li>
+<li><strong>FormSectionStyle</strong> - Style for sections within forms, used to group related form items and visually separate different parts of a form.</li>
+<li><strong>GridIconStyle</strong> - Likely a style for icons within a grid layout, focusing on size and spacing of icons.</li>
+<li><strong>IconWrapperStyle</strong> - Style for a wrapper around icons, potentially affecting size, padding, or background color to enhance icon presentation.</li>
+<li><strong>IframeStyle</strong> - Style for iframe components, affecting border, size, and possibly responsiveness.</li>
+<li><strong>ImageStyle</strong> - General style for image components, including size, border-radius, and object-fit properties.</li>
+<li><strong>InputLikeStyle</strong> - Style for components that resemble input fields, focusing on border, background color, and typography to match the appearance of standard inputs.</li>
+<li><strong>JsonEditorStyle</strong> - Style for JSON editor components, affecting the layout, color scheme, and typography of the editor interface.</li>
+<li><strong>JsonFormCompStyle</strong> - Style for components that generate forms based on JSON data, likely affecting the layout and appearance of dynamically created forms.</li>
+<li><strong>ListViewStyle</strong> - Style for list view components, focusing on item spacing, scroll behavior, and possibly item hover states.</li>
+<li><strong>ModalStyle</strong> - Style for modal dialog components, including background overlay, modal positioning, and content padding.</li>
+<li><strong>MultiSelectStyle</strong> - Style for multi-select components, affecting how selected items are displayed and how the selection list is presented.</li>
+<li><strong>NavLayoutItemStyle</strong> - Style for items within a navigation layout, specifying the appearance of navigation links or buttons.</li>
+<li><strong>ProgressStyle</strong> - Style for progress bar components, including bar color, height, and border-radius.</li>
+<li><strong>RatingStyle</strong> - Style for rating components, such as star ratings, including size, color, and spacing of rating icons.</li>
+<li><strong>ResponsiveLayoutColStyle</strong> - Style for columns in responsive layouts, affecting width, padding, and breakpoint behaviors.</li>
+<li><strong>ResponsiveLayoutRowStyle</strong> - Style for rows in responsive layouts, focusing on spacing between columns and alignment within the row.</li>
+<li><strong>RichTextEditorStyle</strong> - Style for rich text editor components, affecting the toolbar, typography, and editor area appearance.</li>
+<li><strong>SegmentStyle</strong> - Style for segment controls or segmented buttons, including border, background color, and selected state appearance.</li>
+<li><strong>SelectStyle</strong> - Style for select dropdown components, focusing on dropdown appearance, item spacing, and hover states.</li>
+<li><strong>SignatureStyle</strong> - Style for signature components, likely affecting the canvas area where signatures are drawn.</li>
+<li><strong>SliderStyle</strong> - Style for slider components, including track and handle appearance, as well as responsive behavior.</li>
+<li><strong>SwitchStyle</strong> - Style for switch components, focusing on the toggle appearance, color, and size.</li>
+<li><strong>TableStyle</strong> - General style for table components, affecting cell padding, border, and header styling.</li>
+<li><strong>TextWrapperStyle</strong> - Style for text wrapper components, potentially affecting typography, line-height, and text alignment.</li>
+<li><strong>TimeLineStyle</strong> - Style for timeline components, focusing on line color, event marker appearance, and spacing.</li>
+<li><strong>ToggleButtonStyle</strong> - Style for toggle button components, including the appearance of the toggle state and transition effects.</li>
+<li><strong>TreeStyle</strong> - Style for tree view components, affecting node spacing, indentation, and expand/collapse icons.</li>
+<li><strong>VideoStyle</strong> - Style for video components, including controls appearance, aspect ratio, and border.</li>
+</ul>
+<h3 id="labels">Labels</h3>
+<ul>
+<li><strong>BlockGrayLabel</strong> - A style or component for displaying labels with a gray background, typically used for subtle emphasis.</li>
+<li><strong>BlockLabel</strong> - A component or style for block-level labels, used for headings or important textual information.</li>
+<li><strong>CommonGrayLabel</strong> - A predefined style for labels with a common gray theme, likely used for neutral or secondary information.</li>
+<li><strong>DropdownOptionLabelWithDesc</strong> - A component for dropdown options that includes both a label and a description for more detailed selections.</li>
+<li><strong>CollapseLabel</strong> - Likely a label used within a collapsible component to indicate the section or content that can be expanded or collapsed.</li>
+<li><strong>IconWrapperLabel</strong> - A label associated with an icon wrapper, possibly used for tooltips or descriptions of icons.</li>
+<li><strong>QueryConfigLabel</strong> - A label used within query configuration settings, possibly to identify different query parameters or options.</li>
+<li><strong>TooltipLabel</strong> - A label specifically designed for use within tooltips, providing brief descriptions or additional information on hover.</li>
+<li><strong>ShowBorderLabel</strong> - A label that might be used to toggle or indicate the visibility of borders in a UI component or layout section.</li>
+<li><strong>TextLabel</strong> - A general-purpose label for text, used across various components and contexts to display information.</li>
+<li><strong>FormSectionLabel</strong> - A label used to title or describe sections within a form, helping to organize and categorize form fields.</li>
+<li><strong>DropdownOptionLabel</strong> - Similar to DropdownOptionLabelWithDesc but possibly without the description, used for simpler dropdown selections.</li>
+<li><strong>InputLabel</strong> - A label typically used for input fields, indicating the type of information expected from the user.</li>
+<li><strong>MenuItemLabel</strong> - A label used within menu items, providing clear identification of the menu option.</li>
+<li><strong>OptionLabel</strong> - A label used for options in select dropdowns, checkboxes, or radio buttons, providing clear identification of each choice.</li>
+</ul>
+<h3 id="options">Options</h3>
+<ul>
+<li><strong>ActionOptions</strong> - Likely refers to configurations or settings related to actions that can be performed within the application, such as button actions or event triggers.</li>
+<li><strong>AlignOptions</strong> - Configurations for alignment properties, possibly including options for text or element alignment within a UI component (e.g., left, right, center).</li>
+</ul>
+<h3 id="checkers">Checkers</h3>
+<ul>
+<li><strong>CheckEmailValid</strong> - A utility or function designed to validate email addresses, ensuring they meet a specific format or criteria.</li>
+<li><strong>CheckIsMobile</strong> - A function or method to determine if the user's device is a mobile device, based on screen size, user agent, or other factors.</li>
+<li><strong>CheckOtpValid</strong> - A validation function for one-time passwords (OTPs), ensuring that the inputted OTP is correct and valid within a given context or timeframe.</li>
+<li><strong>CheckPhoneValid</strong> - A utility designed to validate phone numbers, verifying their format and possibly their authenticity or region-specific characteristics.</li>
+</ul>
+<h3 id="constants--patterns">Constants / Patterns</h3>
+<ul>
+<li><strong>CACHE_PREFIX</strong> - Likely a constant used as a prefix in caching mechanisms to differentiate or namespace cached items.</li>
+<li><strong>COLOR_PALETTE</strong> - A predefined set of colors available for use throughout the application, ensuring consistency in the UI's color scheme.</li>
+<li><strong>DATE_FORMAT</strong> - A constant representing the default format for displaying dates within the application.</li>
+<li><strong>DATE_FORMAT_EN</strong> - Specifies the date format specifically for English locales, ensuring dates are presented in a region-appropriate manner.</li>
+<li><strong>DATE_TIME_12_FORMAT</strong> - Represents a date and time format that includes a 12-hour clock, possibly with AM/PM indicators.</li>
+<li><strong>DATE_TIME_FORMAT</strong> - A general constant for the format used to display both date and time information.</li>
+<li><strong>DEFAULT_IMG_URL</strong> - A fallback URL for images, used when a specific image is not available or cannot be loaded.</li>
+<li><strong>DEP_TYPE</strong> - Likely denotes the type of dependency, possibly used in the context of module imports or external library dependencies.</li>
+<li><strong>EMAIL_PATTERN</strong> - A regular expression pattern used for validating email addresses in form inputs or data processing.</li>
+<li><strong>SURFACE_COLOR</strong> - A constant that might define a default or primary surface color used in the UI, part of a theme or design system.</li>
+<li><strong>TIME_FORMAT</strong> - Specifies the format for displaying time within the application, potentially in a 24-hour clock format.</li>
+<li><strong>TIME_FORMAT_MINUTES</strong> - A more specific time format constant, possibly focusing on displaying time with minute precision.</li>
+<li><strong>TIMESTAMP_FORMAT</strong> - Defines the format for displaying timestamps, which include both date and time information.</li>
+<li><strong>TIME_12_FORMAT</strong> - Similar to <strong>DATE_TIME_12_FORMAT</strong>, representing a time format using a 12-hour clock.</li>
+<li><strong>URL_PATTERN</strong> - A regular expression pattern for validating URLs, ensuring that input or linked URLs are in a correct format.</li>
+</ul>
+<h3 id="application-view-and-ide">Application View and IDE</h3>
+<pre><code class="lang-plaintext">appView/bootstrapAt - Bootstrap utility for application initialization.
+appView/LowcoderAppView - Main application view component.
+appView/AppViewInstance - Application view instance management.
+ide/CompIde - Component IDE for development.
+ide/CompPlayground - Component playground for testing.
+</code></pre>
+<h3 id="ant-design">Ant Design</h3>
+<pre><code class="lang-plaintext">antd - Exports from Ant Design for comprehensive UI design utilities and components.
+</code></pre>
+<h2 id="event-handler--trigger">Event Handler &amp; Trigger</h2>
+<p>Event Handlers enable Application Creators to use visually guided Handler Creation for Events that may occur in Visual Components. Use these Event handlers to trigger Events and ensure a good UI.</p>
+<p>The event handler itself does not contain any application logic. It manages only the display of the Event handler. For you as Developer, you can use them to prepare a good visual user interface for Application Creators.</p>
+<figure><img src="../../../.gitbook/assets/App Editor  Event Handlers.webp" alt=""></img><figcaption><p>Meeting related Event Handlers. Developers can bind logical triggers in their component code to this visual Event Handlers.</p></figcaption></figure>
+
+<h3 id="importing-event-handlers">Importing Event Handlers</h3>
+<p>To utilize an event handler, first import it from the designated module:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">InputEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p>You can then attach this handler directly to component events or use intermediary functions for specific user actions.</p>
+<h3 id="using-event-handlers">Using Event Handlers</h3>
+<p>A typical use of event handlers is in combination with the childrenmap of a component.</p>
+<pre class="language-typescript"><code class="lang-typescript"><span class="hljs-keyword">const</span> childrenMap = {
+    ... 
+    <span class="hljs-attr">onEvent</span>: <span class="hljs-title class_">InputEventHandlerControl</span>,
+    ...
+}
+
+<span class="hljs-comment">// other code</span>
+
+<span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">UICompBuilder</span>(childrenMap, <span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">props</span>: { 
+    ... 
+    onFocus: () =&gt; props.onEvent(<span class="hljs-string">"focus"</span>),
+    onBlur: () =&gt; props.onEvent(<span class="hljs-string">"blur"</span>),
+    onPressEnter: () =&gt; props.onEvent(<span class="hljs-string">"submit"</span>),
+    ...
+}</span>) =&gt;</span> {
+... 
+</code></pre>
+
+
+<p>The further code examples are just abstract examples to list the event handlers.</p>
+<h3 id="available-event-handlers">Available Event Handlers</h3>
+<h4 id="input-events"><strong>Input Events</strong></h4>
+<p>Handles text-input related events, including changes, focus, blur, and submit actions.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">InputEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">Component</span>
+  onEvent={<span class="hljs-title class_">InputEventHandlerControl</span>}
+  onFocus={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">InputEventHandlerControl</span>(<span class="hljs-string">"focus"</span>)}
+  onBlur={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">InputEventHandlerControl</span>(<span class="hljs-string">"blur"</span>)}
+  onPressEnter={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">InputEventHandlerControl</span>(<span class="hljs-string">"submit"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>change</code></li>
+<li><code>focus</code></li>
+<li><code>blur</code></li>
+<li><code>submit</code></li>
+</ul>
+<h4 id="button-events"><strong>Button Events</strong></h4>
+<p>Manages click events for button components.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">ButtonEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">Button</span>
+  onClick={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ButtonEventHandlerControl</span>(<span class="hljs-string">"click"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>click</code></li>
+</ul>
+<h4 id="change-events"><strong>Change Events</strong></h4>
+<p>Dedicated to handling change events primarily from user-inputs.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">ChangeEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">Input</span>
+  onChange={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ChangeEventHandlerControl</span>(<span class="hljs-string">"change"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>change</code></li>
+</ul>
+<h4 id="click-events"><strong>Click Events</strong></h4>
+<p>Handles single click, double click, and right click events.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">ClickEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">Component</span>
+  onClick={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ClickEventHandlerControl</span>(<span class="hljs-string">"click"</span>)}
+  onDoubleClick={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ClickEventHandlerControl</span>(<span class="hljs-string">"doubleClick"</span>)}
+  onContextMenu={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ClickEventHandlerControl</span>(<span class="hljs-string">"rightClick"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>click</code></li>
+<li><code>doubleClick</code></li>
+<li><code>rightClick</code></li>
+</ul>
+<h4 id="checkbox-events"><strong>Checkbox Events</strong></h4>
+<p>Controls checkbox interactions, including check and uncheck actions.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">CheckboxEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">Checkbox</span>
+  onChange={<span class="hljs-function">(<span class="hljs-params">e</span>) =&gt;</span> <span class="hljs-title class_">CheckboxEventHandlerControl</span>(e.<span class="hljs-property">target</span>.<span class="hljs-property">checked</span> ? <span class="hljs-string">"checked"</span> : <span class="hljs-string">"unchecked"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>checked</code></li>
+<li><code>unchecked</code></li>
+</ul>
+<h4 id="drag-and-drop-events"><strong>Drag and Drop Events</strong></h4>
+<p>Facilitates drag-and-drop operations across draggable components.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">DragEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">DraggableComponent</span>
+  onDragStart={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">DragEventHandlerControl</span>(<span class="hljs-string">"drag"</span>)}
+  onDrop={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">DragEventHandlerControl</span>(<span class="hljs-string">"drop"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>drag</code></li>
+<li><code>drop</code></li>
+</ul>
+<h4 id="media-control-events"><strong>Media Control Events</strong></h4>
+<p>Handles media controls like play, pause, and end events for media components.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">MediaEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">MediaComponent</span>
+  onPlay={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MediaEventHandlerControl</span>(<span class="hljs-string">"play"</span>)}
+  onPause={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MediaEventHandlerControl</span>(<span class="hljs-string">"pause"</span>)}
+  onNext={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MediaEventHandlerControl</span>(<span class="hljs-string">"next"</span>)}
+  onEnded={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MediaEventHandlerControl</span>(<span class="hljs-string">"ended"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>play</code></li>
+<li><code>pause</code></li>
+<li><code>next</code></li>
+<li><code>ended</code></li>
+</ul>
+<h4 id="collaboration-events"><strong>Collaboration Events</strong></h4>
+<p>Manages events related to screen- and content-sharing features.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">CollaborationEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">CollaborationComponent</span>
+  onStartShare={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">CollaborationEventHandlerControl</span>(<span class="hljs-string">"shareScreen"</span>)}
+  onStopShare={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">CollaborationEventHandlerControl</span>(<span class="hljs-string">"shareScreenEnd"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>shareScreen</code></li>
+<li><code>shareScreenEnd</code></li>
+<li><code>shareControl</code></li>
+<li><code>shareControlEnd</code></li>
+<li><code>shareContent</code></li>
+<li><code>shareContentEnd</code></li>
+</ul>
+<h4 id="element-events"><strong>Element Events</strong></h4>
+<p>It handles events related to general element interactions, such as open, edit, close, save, and delete actions.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">ElementEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre class="language-javascript"><code class="lang-javascript">&lt;<span class="hljs-title class_">ElementComponent</span>
+  onOpen={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ElementEventHandlerControl</span>(<span class="hljs-string">"open"</span>)}
+  onEdit={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ElementEventHandlerControl</span>(<span class="hljs-string">"edited"</span>)}
+  onClose={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ElementEventHandlerControl</span>(<span class="hljs-string">"close"</span>)}
+  onSave={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ElementEventHandlerControl</span>(<span class="hljs-string">"saved"</span>)}
+  onDelete={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ElementEventHandlerControl</span>(<span class="hljs-string">"delete"</span>)}
+/&gt;
+</code></pre>
+
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>open</code></li>
+<li><code>edited</code></li>
+<li><code>close</code></li>
+<li><code>saved</code></li>
+<li><code>delete</code></li>
+</ul>
+<h4 id="geomap-events"><strong>GeoMap Events</strong></h4>
+<p>Manages events related to geographical map interactions such as move, zoom, and select.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">GeoMapEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">javascriptCopy code&lt;<span class="hljs-title class_">GeoMapComponent</span>
+  onMove={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">GeoMapEventHandlerControl</span>(<span class="hljs-string">"geoMapMove"</span>)}
+  onZoom={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">GeoMapEventHandlerControl</span>(<span class="hljs-string">"geoMapZoom"</span>)}
+  onSelect={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">GeoMapEventHandlerControl</span>(<span class="hljs-string">"geoMapSelect"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>geoMapMove</code></li>
+<li><code>geoMapZoom</code></li>
+<li><code>geoMapSelect</code></li>
+</ul>
+<h4 id="chart-events"><strong>Chart Events</strong></h4>
+<p>Controls events related to chart interactions including zoom, hover, select, and deselect.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">ChartEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">ChartComponent</span>
+  onZoom={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ChartEventHandlerControl</span>(<span class="hljs-string">"chartZoom"</span>)}
+  onHover={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ChartEventHandlerControl</span>(<span class="hljs-string">"chartHover"</span>)}
+  onSelect={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ChartEventHandlerControl</span>(<span class="hljs-string">"chartSelect"</span>)}
+  onDeselect={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ChartEventHandlerControl</span>(<span class="hljs-string">"chartDeselect"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>chartZoom</code></li>
+<li><code>chartHover</code></li>
+<li><code>chartSelect</code></li>
+<li><code>chartDeselect</code></li>
+</ul>
+<h4 id="meeting-events"><strong>Meeting Events</strong></h4>
+<p>Handles events specific to meeting interactions such as start, end, join, leave, and camera control.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">MeetingEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">MeetingComponent</span>
+  onStart={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MeetingEventHandlerControl</span>(<span class="hljs-string">"meetingStart"</span>)}
+  onEnd={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MeetingEventHandlerControl</span>(<span class="hljs-string">"meetingEnd"</span>)}
+  onJoin={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MeetingEventHandlerControl</span>(<span class="hljs-string">"meetingJoin"</span>)}
+  onLeave={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MeetingEventHandlerControl</span>(<span class="hljs-string">"meetingLeave"</span>)}
+  onCameraOn={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MeetingEventHandlerControl</span>(<span class="hljs-string">"showCamera"</span>)}
+  onCameraOff={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">MeetingEventHandlerControl</span>(<span class="hljs-string">"hideCamera"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>meetingStart</code></li>
+<li><code>meetingEnd</code></li>
+<li><code>meetingJoin</code></li>
+<li><code>meetingLeave</code></li>
+<li><code>showCamera</code></li>
+<li><code>hideCamera</code></li>
+</ul>
+<h4 id="scanner-events"><strong>Scanner Events</strong></h4>
+<p>Manages scanner interaction events such as success, error, and related operational controls.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">ScannerEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">ScannerComponent</span>
+  onSuccess={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ScannerEventHandlerControl</span>(<span class="hljs-string">"scannerSuccess"</span>)}
+  onError={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ScannerEventHandlerControl</span>(<span class="hljs-string">"scannerError"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>scannerSuccess</code></li>
+<li><code>scannerError</code></li>
+</ul>
+<h4 id="step-events"><strong>Step Events</strong></h4>
+<p>Controls step-based interactions, suitable for workflows or guided processes.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">StepEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">StepComponent</span>
+  onNext={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">StepEventHandlerControl</span>(<span class="hljs-string">"next"</span>)}
+  onStep={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">StepEventHandlerControl</span>(<span class="hljs-string">"step"</span>)}
+  onFinish={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">StepEventHandlerControl</span>(<span class="hljs-string">"finished"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>step</code></li>
+<li><code>next</code></li>
+<li><code>finished</code></li>
+</ul>
+<h4 id="share-content-events"><strong>Share Content Events</strong></h4>
+<p>Handles events related to content sharing within collaborative environments.</p>
+<p><strong>Module Import:</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">ShareContentEventHandlerControl</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"path/to/eventHandlerControl"</span>;
+</code></pre>
+<p><strong>Usage:</strong></p>
+<pre><code class="lang-javascript">&lt;<span class="hljs-title class_">ContentSharingComponent</span>
+  onStartShare={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ShareContentEventHandlerControl</span>(<span class="hljs-string">"shareContent"</span>)}
+  onEndShare={<span class="hljs-function">() =&gt;</span> <span class="hljs-title class_">ShareContentEventHandlerControl</span>(<span class="hljs-string">"shareContentEnd"</span>)}
+/&gt;
+</code></pre>
+<p><strong>Exposed Events:</strong></p>
+<ul>
+<li><code>shareContent</code></li>
+<li><code>shareContentEnd</code></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../embed-apps-in-react.html" class="navigation navigation-prev " aria-label="Previous page: Embed Apps in React">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="build-the-sdk-from-source.html" class="navigation navigation-next " aria-label="Next page: Build the SDK from Source">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Native embed SDK","level":"8.3.3","depth":2,"next":{"title":"Build the SDK from Source","level":"8.3.3.1","depth":3,"path":"publish-apps/embedd-an-app/native-embed-sdk/build-the-sdk-from-source.md","ref":"publish-apps/embedd-an-app/native-embed-sdk/build-the-sdk-from-source.md","articles":[]},"previous":{"title":"Embed Apps in React","level":"8.3.2","depth":2,"path":"publish-apps/embedd-an-app/embed-apps-in-react.md","ref":"publish-apps/embedd-an-app/embed-apps-in-react.md","articles":[]},"articles":[{"title":"Build the SDK from Source","level":"8.3.3.1","depth":3,"path":"publish-apps/embedd-an-app/native-embed-sdk/build-the-sdk-from-source.md","ref":"publish-apps/embedd-an-app/native-embed-sdk/build-the-sdk-from-source.md","articles":[]}],"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"publish-apps/embedd-an-app/native-embed-sdk/README.md","mtime":"2024-08-27T22:57:02.258Z","type":"markdown"},"gitbook":{"version":"5.1.4","time":"2024-08-28T00:26:48.377Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

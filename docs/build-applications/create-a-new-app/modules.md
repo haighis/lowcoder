@@ -18,9 +18,9 @@ There are no differences in editing a Module or App other than the Module Settin
 
 In the Module Editor, you can resize a module by dragging the bottom-right corner to the desirable default size. Be aware, that the screen in the editor does not show the real horizontal size of the module, as this size is defined at the App, where the Module is placed.
 
-{% hint style="info" %}
+
 Any changes you made at Modules are only available and active for Apps that use the Module after the new publishing of the Module!
-{% endhint %}
+
 
 
 
@@ -69,20 +69,20 @@ To quickly test the effectiveness of Input parameters during editing a Module, y
 
 <figure><img src="../../.gitbook/assets/App Editor  Module Test Data.png" alt=""><figcaption><p>Modules can receive dynamically input data</p></figcaption></figure>
 
-{% hint style="info" %}
+
 Make sure, that you remove any test data when you publish the Module.
-{% endhint %}
+
 
 ### Output
 
 Module outputs are the data exposed to an app or other modules. You can inspect the outputs of a module in the data browser and access them via JavaScript code in `{{ }}`. Then you can check out and reference the outputs of a module in apps or other modules using it.
 
-{% hint style="info" %}
+
 We suggest to chose output data names carefully.&#x20;
 
 * Make sure they express the module origin
 * Make sure they express the inner source (from data, from action etc.)
-{% endhint %}
+
 
 ### Method
 
@@ -94,9 +94,9 @@ In the **Settings** tab, click **+** **Add** to create a new Module Method. Clic
 
 <figure><img src="../../.gitbook/assets/App Editor  Module Methods.png" alt=""><figcaption><p>From an App, one can call Methods of a embedded Module.</p></figcaption></figure>
 
-{% hint style="warning" %}
+
 When creating a Method for a Module, you cannot create input parameters for the Method and can only reference parameters within the scope of the current Module.
-{% endhint %}
+
 
 #### Call a Method
 
@@ -142,6 +142,6 @@ End users are automatically granted permission to view modules in apps or other 
 
 Lowcoder stores the historical versions of your modules for your reference. Click **Preview > Publish** at the top right. The release management of a module is identical to that of an app. For detailed information, see [version history](version-and-release-management.md).
 
-{% hint style="info" %}
+
 For an unpublished module, the apps and modules use its latest version; while for a published one, you need to publish it again to sync your latest changes.
-{% endhint %}
+

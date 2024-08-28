@@ -22,9 +22,9 @@ Make sure the "Standard Flow" is activated, as also "Client authentication" and 
 
 Configure the Lowcoder redirect URLs.
 
-{% hint style="info" %}
+
 For the cloud, the "Valid redirect URI" is https://app.lowcoder.cloud
-{% endhint %}
+
 
 <figure><img src="../../.gitbook/assets/KeyCloak Client Setup 3.png" alt=""><figcaption></figcaption></figure>
 
@@ -44,9 +44,9 @@ in Lowcoder, go to Settings > OAuth Provider and select "KeyCloak" in the "Add O
 
 Now you can enter all settings for KeyCloak
 
-{% hint style="info" %}
+
 Instance ID is the Base URL of your KeyCloak Installation
-{% endhint %}
+
 
 <figure><img src="../../.gitbook/assets/KeyCloak Setup.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,9 +56,8 @@ You can also change settings later.
 
 
 
-{% hint style="warning" %}
 The minimal scope to setup is "offline\_access openid".
-{% endhint %}
+
 
 Thats it! Now you can use KeyCloak to offer your Users to Sign in and Sign up with KeyCloak.
 

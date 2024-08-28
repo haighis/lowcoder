@@ -45,7 +45,8 @@ Follow the steps below to include this function in your app.
 
 1. Drag and drop a **Select** component onto your canvas. Set the data value as follows.
 
-<pre class="language-Plain"><code class="lang-Plain"><strong>{{[{ id: "", name: "Default" }, ...theme.allThemes]}}
+TODO
+<pre class="language-Plain"><code class="lang-Plain"><strong>
 </strong></code></pre>
 
 2. Set the labels and values as `{{item.name}}` and `{{item.id}}` respectively. Then, you can view the default theme and all other available themes in the current workspace.
@@ -61,9 +62,9 @@ In the app editor, click ⚙️ on the left side-bar, select **Scripts and style
 
 For example, insert text component `text1`. Then use `.text1` as the element name and modify its CSS style.
 
-{% hint style="info" %}
+
 It is recommended to modify the component styles in **Properties** > **Style** because the DOM of an adjusted CSS style may change as the system iterates.
-{% endhint %}
+
 
 ### Preload CSS
 

@@ -36,25 +36,25 @@ Lowcoder triggers your queries in two modes: it runs automatically when "inputs 
 
 Queries set to this mode automatically run when dependent inputs change or on page load. For example, the query result of `select * from users where customer_id = {{input.value}}` updates immediately when `input.value` changes. \*\*\*\* This mode to run a query is recommended for queries reading data from data sources.
 
-{% hint style="warning" %}
+
 Consider carefully when to trigger a query. Data Queries that may take longer to respond may block the application visuals from loading properly and displaying your data.&#x20;
-{% endhint %}
+
 
 ### Manually invoked
 
 For this mode of queries, they run only with your manual trigger, such as a button or link click. You need to specify an event handler to trigger the query. This mode is recommended for queries writing data to data sources, because you may need to confirm that the input is complete and error-free before running it.
 
-{% hint style="info" %}
+
 **How to choose a query's trigger mode?**
 
 In most cases, queries reading data, like **select** operations, can be set to the former mode, and those writing data, like **create**/**delete**/**update** operations, run the latter way.
 
 When Lowcoder detects your query statement switches from reading to writing data, the trigger mode switches to **Manually invoked** automatically, but not the other way around.
-{% endhint %}
 
-{% hint style="info" %}
+
+
 Sometimes, you can also have the need to call a Data Query as an outcome or after the response of another Data Query to merge data responses, for example. You can use [Event-Handlers](../../build-applications/app-interaction/event-handlers.md) of Data Queries or the so called [Data Responder](../../business-logic-in-apps/write-javascript/data-responder.md) then. The first query may be triggered "on Inputs change or on page load" and following queries will then use the trigger "manually invoked".
-{% endhint %}
+
 
 ## Response-Event Handler
 

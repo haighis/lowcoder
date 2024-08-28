@@ -2,7 +2,7 @@
 
 We maintain a list of all components that are available or planned.
 
-{% embed url="https://app.lowcoder.cloud/apps/648cd237a0308d4efcc64571/view" %}
+TODO https://app.lowcoder.cloud/apps/648cd237a0308d4efcc64571/view
 
 With Version 2.0.0 of Lowcoder there are 56 Components.&#x20;
 

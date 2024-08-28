@@ -10,24 +10,23 @@ Lowcoder supports Workspaces. These are isolated rooms to organize:
 * [Themes](../build-applications/themes-and-styling/)
 * Global includes (Javascript / CSS)
 
-{% hint style="info" %}
-To activate this function, please add the [ENV Variable](https://github.com/lowcoder-org/lowcoder/tree/main/deploy/docker#configuration): **COMMON\_WORKSPACE\_MODE**=SAAS
-{% endhint %}
 
-{% hint style="info" %}
+To activate this function, please add the [ENV Variable](https://github.com/lowcoder-org/lowcoder/tree/main/deploy/docker#configuration): **COMMON\_WORKSPACE\_MODE**=SAAS
+
+
+
 From Version 2.3.3, you can add the [ENV Variable](https://github.com/lowcoder-org/lowcoder/tree/main/deploy/docker#configuration) **LOWCODER\_CREATE\_WORKSPACE\_ON\_SIGNUP** to control the behavior of your users (Member role) on self-hosted installation.\
 \
 true - members can use their own workspace when they sign up. \
 false - members will not have their own workspace when they sign up.
-{% endhint %}
 
-{% hint style="warning" %}
+
 If you want to close the possibility that anyone can Sign in and create an account, you can set the ENV Variable **LOWCODER\_EMAIL\_SIGNUP\_ENABLED** to "false". \
 \
 The Sign In / Sign Up Screen will still be shown, but the Sign Up will return an Error message and new users cannot create Accounts.\
 \
 This can be helpful if you have your own Identity / OAuth Provider listed and want to be sure that users only with these Identity / OAuth Providers can create Accounts on your Lowcoder installation.
-{% endhint %}
+
 
 The Workspace is a tool to use for organizing groups or user access to Apps. It is also used to apply a theme to a set of Apps.
 

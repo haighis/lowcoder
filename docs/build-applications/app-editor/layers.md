@@ -27,10 +27,10 @@ When we activate Step 3, you will be able to control the vertical auto-scaling o
 
 In the new "Layers" Settings Menu on the left Sidebar you can open the Settings regarding Layers, Bulk edit, and Layout.
 
-{% embed url="https://app.supademo.com/demo/5GvlYeyGG5WMV_ilagjhG" %}
+TODO  https://app.supademo.com/demo/5GvlYeyGG5WMV_ilagjhG
 
 ### Organize Layer Position
 
 To change the Layer Position and move Components in front or back of each other, simply use the drag n drop List on the left Layers Settings section.
 
-{% embed url="https://app.supademo.com/demo/ZCxHoz84UavOMrnGWHo0H" %}
+TODO https://app.supademo.com/demo/ZCxHoz84UavOMrnGWHo0H

@@ -14,11 +14,11 @@ This is an overview list of exports available for developers using the Lowcoder 
 
 
 
-{% hint style="warning" %}
+
 It is important to keep in mind, that this List was build during a reverse engineering attempt. We cannot guarantee the completeness. Also you will find at many Items that the description was guessed (by ChatGPT). \
 \
 We try step by step to add missing Items and optimize the documentation.
-{% endhint %}
+
 
 ### External Libraries
 
@@ -380,9 +380,9 @@ return new UICompBuilder(childrenMap, (props: {
 ... 
 </code></pre>
 
-{% hint style="info" %}
+
 The further code examples are just abstract examples to list the event handlers.
-{% endhint %}
+
 
 ### Available Event Handlers
 

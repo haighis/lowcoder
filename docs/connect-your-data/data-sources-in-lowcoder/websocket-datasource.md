@@ -23,13 +23,13 @@ As URL enter the WebSocket Server address ws:// (without) and wss:// (with SSL s
 
 
 
-{% hint style="info" %}
-[https://www.piesocket.com](https://www.piesocket.com/) is a service that you can use to establish and use WebSocket Servers as a Service.
-{% endhint %}
 
-{% hint style="warning" %}
+[https://www.piesocket.com](https://www.piesocket.com/) is a service that you can use to establish and use WebSocket Servers as a Service.
+
+
+
 Each time a message arrives in the open connection, the Lowcoder Query will fire the event "success", so you can bind an Event-Handler to process these messages.
-{% endhint %}
+
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-24 at 13.33.02.png" alt=""><figcaption></figcaption></figure>
 

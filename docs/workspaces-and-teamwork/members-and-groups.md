@@ -49,9 +49,9 @@ You can invite members to your workspace by managing **All Members** group. Open
 
 You can also find the shortcut to  **Invite members** on the bottom left of the Lowcoder Admin Page.
 
-{% hint style="info" %}
+
 Permission to invite new members to a Workspace is restricted to workspace **admins** and **developers group**.
-{% endhint %}
+
 
 ### Workspace roles and permissions
 

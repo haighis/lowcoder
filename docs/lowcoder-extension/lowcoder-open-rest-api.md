@@ -95,9 +95,9 @@ In return, you will get a JSON response containing the API key
 
 For all further API Calls, you can then use the API Key, which impersonates the logged-in user, that created the API Key.
 
-{% hint style="warning" %}
+
 As the API Key impersonates the user, who created the API Key (based on the Cookie), all rights of that impersonated User are also active via API Key.&#x20;
-{% endhint %}
+
 
 ## OpenAPI Specification & Postman Collection
 

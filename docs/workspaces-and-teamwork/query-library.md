@@ -26,9 +26,8 @@ With the template notation `{{}}`, you can use the dynamic Input parameters in t
 
 <figure><img src="../.gitbook/assets/Query Library  Input Parameter.png" alt=""><figcaption><p>Using Input Parameters for dynamic Queries.</p></figcaption></figure>
 
-{% hint style="warning" %}
 You can only reference variables instead of writing JavaScript code in `{{}}`.
-{% endhint %}
+
 
 To edit the name and description of the input variables, click `...` and select **Edit** or directly click the title of the variable.
 
@@ -66,9 +65,9 @@ Select a query from the library from the dropdown list, choose your desired vers
 
 You can export a Query as a JSON Definition file. This helps to use a Query across different Lowcocer installations for example, or simply as a Backup.
 
-{% hint style="info" %}
+
 Be aware, that the connected Datasource of a Query may have different security credentials at different installation locations.
-{% endhint %}
+
 
 <figure><img src="../.gitbook/assets/Query Library  Export Query.png" alt=""><figcaption><p>With "Export to JSON" you can backup a query or store it externally to use it in other Lowcoder Installations.</p></figcaption></figure>
 

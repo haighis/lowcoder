@@ -8,17 +8,15 @@ For internal apps, it streamlines communication, enables real-time problem-solvi
 
 We wanted to give you, as an application developer, the maximum freedom at the smallest cost possible. After a research phase, we decided to integrate Agora SDK in Lowcoder so that you can build Video-Meeting Experiences inside your Apps.
 
-{% embed url="https://agora.io/" %}
+TODO: ![gras](https://agora.io/)
 
-{% hint style="info" %}
 To make the docs readable, we will name the user who is in a Video Meeting "**You**" and other users who are in the same Meeting Room "**Attendees**".
-{% endhint %}
 
 ## Preparation
 
 To use Video Meetings based on Agora SDKs in Lowcoder, you need to create an Account with Agora.&#x20;
 
-{% embed url="https://console.agora.io" %}
+TODO: ![gras](https://console.agora.io)
 
 #### Step 1: Create an Agora Account
 
@@ -27,9 +25,9 @@ To use Video Meetings based on Agora SDKs in Lowcoder, you need to create an Acc
 
 <figure><img src="../.gitbook/assets/Agora Meetings  Login to Agora.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
+
 The first steps and even some meeting hours are free. Only if you have a higher volume of meeting hours than your app users spend do you need to purchase a plan. This allows you to get to know and test intensely - free of charge.
-{% endhint %}
+
 
 #### Step 2: Create a New Project
 
@@ -41,9 +39,7 @@ The first steps and even some meeting hours are free. Only if you have a higher 
 
 <figure><img src="../.gitbook/assets/Agora Meetings  Create Project.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
 If you use App ID with Certificate, you will need the additional component to install, which is the Agora Token Server.
-{% endhint %}
 
 #### Step 3: Obtain App ID
 
@@ -67,7 +63,7 @@ If you use App ID with Certificate, you will need the additional component to in
 
 To use the App Certificate (a token-based additional security layer for your meetings and real-time communication), you will need to operate your own Token Server. This is easy, based on the prepared standard Docker image.
 
-{% embed url="https://github.com/AgoraIO-Community/agora-token-service" %}
+TODO https://github.com/AgoraIO-Community/agora-token-service
 
 You can read more details about Agora [Token Management here](https://docs.agora.io/en/video-calling/get-started/authentication-workflow?platform=web). However, the public docker image and the ready integration in Lowcoder make it truly easy.
 
@@ -95,13 +91,13 @@ As a Response, you will get back a JSON, which contains 2 Tokens.
 }
 ```
 
-{% hint style="warning" %}
-If you have activated "App Certificates" in the Agora Project Settings and so use the Agora Token Server, then you will need both Tokens to Start a Meeting at the Agora Meeting Controller Component.
-{% endhint %}
 
-{% hint style="success" %}
+If you have activated "App Certificates" in the Agora Project Settings and so use the Agora Token Server, then you will need both Tokens to Start a Meeting at the Agora Meeting Controller Component.
+
+
+
 We strongly recommend to use Agora Meeting Tokens to ensure a secure Meeting and Realtime Messages Experience for your Users.
-{% endhint %}
+
 
 ### Agora Token Handling
 
@@ -147,17 +143,17 @@ The following settings are mandatory:
 * Host User ID: This is the Unique Identifier for a User in Agora Meetings. It _could_ be the UserID of Lowcoder Users - if your scenario offers Meetings only for Lowcoder Users. It should be a dynamic value, and you need to manage it in your own Backend / Database the management of the User IDs.
 * RTM and RTC Token are used when an Agore App Certificate and a Token Server is used. For each meeting instance, you need a fresh Token Pair.
 
-{% hint style="warning" %}
+
 A Meeting Room can be used for multiple Meetings. The Room is "open" as soon as created. Users who specify the same _channel name_ (In Lowcoder: "Meeting Name") join a common channel and interact with each other. "A channel is created when the first user joins. It ceases to exist when the last user leaves." The [Agora Docs](https://docs.agora.io/en/video-calling/overview/core-concepts?platform=web) can give more & deeper information to it.
-{% endhint %}
 
-{% hint style="warning" %}
+
+
 Tokens have to be generated at each start of a meeting for a meeting attendee. When the Tokens are fetched and bound to the Meeting Controller, the Meeting Controller Function startMeeting() can be called.
-{% endhint %}
 
-{% hint style="warning" %}
+
+
 Meeting Name (Meeting Room) & Host User ID have to be managed in your own Backend / Database. In regards to the Lowcoder App, they must be dynamic - as multiple Users may want to join the meeting - which is based on the same single Lowcoder App.
-{% endhint %}
+
 
 ### Meeting Controller Data & Functions
 
@@ -200,13 +196,9 @@ The Video Stream ID is the Meeting User ID.
 * To set the video Stream of the local user (you), you can bind the value of **localUser.** `{{meetingController.localUser}}`
 * To set the video Stream of the Attendee user, you can make use of the **participants** Array. You would need a repeater component like the List Component for example to keep the meeting attendee display dynamic. In the listItem (**currentItem**) you would set then for example: `{{meetingController.participants[currentItem]}}`
 
-{% hint style="info" %}
 The Video Stream get's automatic visible, as soon as the respective Camera is ready and active.
-{% endhint %}
 
-{% hint style="danger" %}
 The incoming Sharing Screen Stream, unfortunately, is currently in Agora Meeting tight connected to the Camera Stream (in fact, there is only a single stream per attendee). That means, that the control of the displayed Stream (Camera or Screen Sharing) has to be managed by the App Creator
-{% endhint %}
 
 ### Screen Share Stream
 
@@ -231,9 +223,8 @@ meetingController.broadCast(message);
 
 Messages sent in the Meeting Room (Channel) are collected for each Meeting Attendee at the local Data Object **messages** (`meetingController.messages`f.e.) as an Array.
 
-{% hint style="danger" %}
 the Data Object **messages** will contain only the latest 100 Messages. As App Creator you are responsible for any further storage of these Messages.
-{% endhint %}
+
 
 
 

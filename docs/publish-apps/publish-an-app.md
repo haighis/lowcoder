@@ -56,14 +56,13 @@ Apps can also be published to Lowcoder marketplaces:
    * Then, publish the app to the marketplace as you publish other apps too.
    * The app will be listed in the _global_ or local Lowcoder marketplace.&#x20;
 
-{% hint style="info" %}
+
 Global Marketplace means, if you published the app for the Marketplace on app.lowcoder.cloud
-{% endhint %}
+
 
 ## Adding Title, Description, Category and Icon
 
 In the left App-Settings Menu, you can add Title, Description, Category, and an Icon to your App, so the display is informative.
 
-{% embed url="https://app.supademo.com/demo/KsbwqBCpWK6OZascdMI-E" %}
+TODO https://app.supademo.com/demo/KsbwqBCpWK6OZascdMI-E
 Adding Application Meta Information help to make the app display informative.
-{% endembed %}

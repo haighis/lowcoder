@@ -24,9 +24,9 @@ You can use the Properties "Zoomlevel, Longitude, and Latitude" to define the fi
 
 In Version Lowcoder 2.1.x the eCharts Map is configurable like other eCharts by the "Options JSON"&#x20;
 
-{% hint style="info" %}
+
 For more and deeper information check the eCharts documentation. [https://echarts.apache.org/en/api.html#echartsInstance.setOption](https://echarts.apache.org/en/api.html#echartsInstance.setOption)
-{% endhint %}
+
 
 As eCharts is already integrated into Lowcoder, you only need to prepare and set the Options-JSON Data. The configuration follows the standard eCharts notation.
 

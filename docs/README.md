@@ -10,6 +10,10 @@ In Lowcoder, all you need to do is drag and drop pre-built or self-customized co
 
 <figure><img src=".gitbook/assets/App Editor  Main Screeen clean.png" alt=""><figcaption></figcaption></figure>
 
+## What is Flower?
+
+Flower is an open-source fork of Lowcoder that includes all the greatness of Lowcoder, an additional Product Roadmap of features and extension points that will replace the commercial snags found within Lowcoder. 
+
 ## Why choose Lowcoder?
 
 * **Open source:** For cloud and self-hosted deployment. Makes your ideas more feasible.

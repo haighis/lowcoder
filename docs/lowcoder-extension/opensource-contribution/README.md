@@ -22,9 +22,9 @@ Extension of Lowcoder for and with the Community happens mainly by the Plugins a
 * Plugin API of API Service
 * [Data-Source Plugins in the Node-Service](https://github.com/lowcoder-org/lowcoder/tree/main/server/node-service/src/plugins)
 
-{% hint style="success" %}
+
 We suggest looking first into the development of these plugins, as they offer a good abstraction that speeds up development and offers a good and fast value for the community.
-{% endhint %}
+
 
 ### Visual Component Plugin Builder
 
@@ -230,15 +230,15 @@ spring:
       url: redis://localhost:6379
 ```
 
-{% hint style="info" %}
+
 Configure the local runtime: \
 ./api-service/lowcoder-server/src/main/resources/application-lowcoder.yml
-{% endhint %}
 
-{% hint style="warning" %}
+
+
 Add the VM Options:\
 \-Dpf4j.mode=development -Dpf4j.pluginsDir=lowcoder-plugins -Dspring.profiles.active=lowcoder -XX:+AllowRedefinitionToAddDeleteMethods --add-opens java.base/java.nio=ALL-UNNAMED
-{% endhint %}
+
 
 #### Using VS Code <a href="#unsing-vs-code" id="unsing-vs-code"></a>
 
@@ -317,15 +317,15 @@ mvn clean package
 java -Dpf4j.mode=development -Dspring.profiles.active=lowcoder -Dpf4j.pluginsDir=lowcoder-plugins -jar lowcoder-server/target/lowcoder-server-1.0-SNAPSHOT.jar
 ```
 
-{% hint style="info" %}
+
 The main class is: com.lowcoder.api.ServerApplication
-{% endhint %}
+
 
 Now, you can check the status of the service by visiting [http://localhost:8080](http://localhost:8080) through your browser. By default, you should see an HTTP 404 error. (which, we know, is not the best welcome message ever).
 
-{% hint style="warning" %}
+
 If you run the Api-Service locally on Port 8080, remember the URL for the Frontend App would change to: LOWCODER\_API\_SERVICE\_URL=http://localhost:8080 yarn start
-{% endhint %}
+
 
 ### Node Service
 

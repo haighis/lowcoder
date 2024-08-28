@@ -39,9 +39,9 @@ cd ~/.n8n/custom
 npm install n8n-nodes-lowcoder
 ```
 
-{% hint style="info" %}
+
 If you operate n8n in the queue mode and use multiple workers, remember to install the Lowcoder Community Node on each worker too.
-{% endhint %}
+
 
 ### Connect Lowcoder in n8n
 
@@ -65,9 +65,9 @@ As we use Username and Password - and internally work with the Lowcoder Access-T
 
 <figure><img src="../.gitbook/assets/n8n  Choose App reference.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
+
 Remember, the displayed App List is connected to your current Workspace in Lowcoder. When you change the workspace in Lowcoder, you will get an adapted List of apps of the newly selected Workspace.
-{% endhint %}
+
 
 If you know the ID of your Lowcoder App, you can enter it manually instead "by ID" of searching from the Application List.
 
@@ -79,10 +79,10 @@ As soon as a workflow of n8n reaches a Lowcoder Node, the execution in n8n chang
 
 By itself, the Lowcoder n8n Node will wait infinitely. To resume the workflow and continue to the next nodes, the Lowcoder n8n Node offers a Webhook. This is a Rest API call that is connected to the Lowcoder n8n node. The structure of this webhook is also described in the UI of the Lowcoder Node in n8n.
 
-{% hint style="info" %}
+
 Resume the workflow by calling this Webhook: \
 http(s)://{n8n-url}/webhook-waiting/{Workflow-Execution-ID}/{Lowcoder-App-ID}
-{% endhint %}
+
 
 This Webhook has 2 functions. First, it resumes the Workflow, so n8n will exit the "wait" state and continue the execution of the workflow. The second function is truly important tough...
 
